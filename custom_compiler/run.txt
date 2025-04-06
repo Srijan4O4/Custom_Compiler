@@ -1,0 +1,3 @@
+g++ main.cpp ins_par.cpp com_eng.cpp utils.cpp -o custom_compiler -std=c++17 -lm
+./custom_compiler
+./custom_compiler ins.txt
